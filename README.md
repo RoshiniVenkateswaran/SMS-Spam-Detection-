@@ -9,12 +9,9 @@ The model classifies SMS messages as either **Spam** or **Ham (Not Spam)**.
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Installation](#installation)
-- [Project Structure](#project-structure)
-- [How It Works](#how-it-works)
 - [Results](#results)
-- [Example Predictions](#example-predictions)
 - [Future Improvements](#future-improvements)
-- [License](#license)
+
 
 ---
 
@@ -49,3 +46,21 @@ Clone this repository:
 ```bash
 git clone https://github.com/your-username/spam-message-detector.git
 cd spam-message-detector
+
+---
+
+## Results
+| Metric           | Score |
+| ---------------- | ----- |
+| Accuracy         | ~98%  |
+| Precision (Spam) | 0.99  |
+| Recall (Spam)    | 0.95  |
+
+
+---
+
+## 🌱 Future Improvements
+Use TF-IDF Vectorization for better feature scaling.
+Add text preprocessing (removing punctuation, stemming, etc.).
+Try advanced models like Logistic Regression, SVM, or LSTM.
+Build a simple Streamlit or Flask web app for live message classification.
